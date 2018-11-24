@@ -29,9 +29,9 @@ library(lubridate) #install.packages("lubridate")
 # Used Functions
 #-----------------
 # *** make sure to customize this path
-source("C:/LazyTrading/GitHub/R_trademonitor/import_data.R")
-source("C:/LazyTrading/GitHub/R_trademonitor/get_profit_factorDF.R")
-source("C:/LazyTrading/GitHub/R_trademonitor/writeCommandViaCSV.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/import_data.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/get_profit_factorDF.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/writeCommandViaCSV.R")
 
 # -------------------------
 # Define terminals path addresses, from where we are going to read/write data
