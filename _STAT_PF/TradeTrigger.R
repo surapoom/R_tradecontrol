@@ -29,17 +29,17 @@ library(lubridate) #install.packages("lubridate")
 # Used Functions
 #-----------------
 # *** make sure to customize this path
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/import_data.R")
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/get_profit_factorDF.R")
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/writeCommandViaCSV.R")
+source("C:/LazyTrading/GitHub/R_trademonitor/import_data.R")
+source("C:/LazyTrading/GitHub/R_trademonitor/get_profit_factorDF.R")
+source("C:/LazyTrading/GitHub/R_trademonitor/writeCommandViaCSV.R")
 
 # -------------------------
 # Define terminals path addresses, from where we are going to read/write data
 # -------------------------
 # terminal 1 path *** make sure to customize this path
-path_T1 <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
+path_T1 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
 # terminal 3 path *** make sure to customize this path
-path_T3 <- "C:/Program Files (x86)/FxPro - Terminal3/MQL4/Files/"
+path_T3 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal3/MQL4/Files/"
 
 # -------------------------
 # read data from trades in terminal 1
