@@ -47,7 +47,7 @@ source("C:/LazyTrading/GitHub/R_tradecontrol/writeCommandViaCSV.R")
 path_T1 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
 
 # terminal 3 path *** make sure to customize this path
-path_T4 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal4/MQL4/Files/"
+path_T3 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal3/MQL4/Files/"
 
 # path where to read control parameters from
 path_control_files = "C:/LazyTrading/GitHub/R_tradecontrol/R_tradecontrol/_RL/control"
@@ -63,7 +63,7 @@ DFT1 <- try(import_data(path_T1, "OrdersResultsT1.csv"), silent = TRUE)
 # -------------------------
 # read data from trades in terminal 3
 # -------------------------
-DFT3 <- try(import_data(path_T4, "OrdersResultsT4.csv"), silent = TRUE)
+DFT3 <- try(import_data(path_T3, "OrdersResultsT3.csv"), silent = TRUE)
 
 # Vector with unique Trading Systems
 vector_systems <- DFT1 %$% MagicNumber %>% unique() %>% sort()
