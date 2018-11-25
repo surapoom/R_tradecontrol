@@ -28,18 +28,18 @@ library(magrittr)
 # Used Functions (to make code more compact). See detail of each function in the repository
 #-----------------
 # *** make sure to customize this path
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/import_data.R") 
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/_RL/write_control_parameters.R")
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/_RL/log_RL_progress.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/import_data.R") 
+source("C:/LazyTrading/GitHub/R_tradecontrol/_RL/write_control_parameters.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/_RL/log_RL_progress.R")
  
 # -------------------------
 # Define terminals path addresses, from where we are going to read/write data
 # -------------------------
 # terminal 1 path *** make sure to customize this path
-path_T1 <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
+path_T1 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
 
 # path with folder containing control parameters
-path_control_files = "C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/_RL/control"
+path_control_files = "C:/LazyTrading/GitHub/R_tradecontrol/_RL/control"
 # -------------------------
 # read data from trades in terminal 1
 # -------------------------
