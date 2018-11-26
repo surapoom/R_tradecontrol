@@ -26,9 +26,9 @@ library(lubridate)
 # *************Used Functions******************
 # =============================================
 # *** make sure to customize this path
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/get_profit_factorDF.R")
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/import_data.R")
-source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/check_if_optimize.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/get_profit_factorDF.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/import_data.R")
+source("C:/LazyTrading/GitHub/R_tradecontrol/check_if_optimize.R")
 
 # =============================================
 # ************End of Used Functions************
@@ -44,9 +44,9 @@ path_T1 <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
 # NOTE:
 # Robot repository must have a folder with file TEST/Setup.csv
 # File Setup.csv should contain magic numbers of the working systems 
-path_PRJCT_1 <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_A/"
-path_PRJCT_2 <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_F2/"
-path_PRJCT_3 <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_B/"
+path_PRJCT_1 <- "C:/LazyTrading/GitHub/FALCON_A/"
+path_PRJCT_2 <- "C:/LazyTrading/GitHub/FALCON_F2/"
+path_PRJCT_3 <- "C:/LazyTrading/GitHub/FALCON_B/"
 
 # -------------------------
 # read data from trades in terminal 1
