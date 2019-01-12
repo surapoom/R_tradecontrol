@@ -12,7 +12,7 @@
 #' @examples
 import_data <- function(path_terminal, trade_log_file, demo_mode = F){
   ### uncomment for debugging of this function
-  # path_terminal <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
+  # path_terminal <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
   # trade_log_file <- "_TEST_DATA/OrdersResultsT1.csv"
   # demo_mode <- T
   require(tidyverse)
