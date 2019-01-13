@@ -59,6 +59,7 @@ path_control_files = "C:/LazyTrading/GitHub/R_tradecontrol/R_tradecontrol/_RL/co
 # DFT1 <- try(import_data(trade_log_file = "_TEST_DATA/OrdersResultsT1.csv",
 #                         demo_mode = T),
 #             silent = TRUE)
+
 DFT1 <- try(import_data(path_T1, "OrdersResultsT1.csv"), silent = TRUE)
 # -------------------------
 # read data from trades in terminal 3
