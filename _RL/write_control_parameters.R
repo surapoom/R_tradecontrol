@@ -15,13 +15,13 @@ require(tidyverse) #install.packages("tidyverse")
 require(ReinforcementLearning) #install.packages("ReinforcementLearning")
 require(magrittr)
 
-# source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/_RL/log_RL_progress.R")
+# source("C:/LazyTrading/GitHub/R_tradecontrol/_RL/log_RL_progress.R")
 
   # # test dataset x with winning trades
   # x <- read_rds("_TEST_DATA/trading_systemsDF_wins.rds")
   # # test dataset x with loosing trades
   # x <- read_rds("_TEST_DATA/trading_systemsDF_losers.rds")
-  # path_control_files <- "C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/_RL/control"
+  # path_control_files <- "C:/LazyTrading/GitHub/R_tradecontrol/_RL/control"
 
 # delete DF_RES if it is exist
 if(exists("DF_RES")){rm(DF_RES)}

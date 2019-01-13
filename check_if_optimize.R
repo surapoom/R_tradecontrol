@@ -20,9 +20,9 @@ check_if_optimize <- function(x, path_trading_robot, num_trades_to_consider = 10
                               demo_mode = F){
   require(tidyverse)
   # commented code for debugging
-  # source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/get_profit_factorDF.R")
+  # source("C:/LazyTrading/GitHub/R_tradecontrol/get_profit_factorDF.R")
   # x <- read_rds("_TEST_DATA/test_data_profit_factorDF.rds")
-  # path_trading_robot <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_B/"
+  # path_trading_robot <- "C:/LazyTrading/GitHub/FALCON_B/"
   # num_trades_to_consider <- 10
   # profit_factor_limit <- 0.7
   # demo_mode <- T

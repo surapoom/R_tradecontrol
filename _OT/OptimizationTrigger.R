@@ -38,7 +38,7 @@ source("C:/LazyTrading/GitHub/R_tradecontrol/check_if_optimize.R")
 # Define terminals path addresses, from where we are going to read/write data
 # -------------------------
 # terminal 1 path
-path_T1 <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
+path_T1 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
 
 # trading system project folder
 # NOTE:
