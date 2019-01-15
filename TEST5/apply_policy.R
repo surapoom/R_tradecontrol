@@ -8,7 +8,7 @@
 # model - Reinforcement learning model, 
 # last_trade - information about last trade
 # path_sandbox - path to sandbox where to write the decision
-# path_sandbox <- "C:/Program Files (x86)/FxPro - Terminal4/MQL4/Files/"
+# path_sandbox <- "C:/Program Files (x86)/ICMarkets MT4 Terminal4/MQL4/Files/"
 #
 #' Apply Reinforcement Learning Policy.
 #' 

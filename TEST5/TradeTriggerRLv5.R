@@ -36,13 +36,13 @@ library(magrittr)
 # Used Functions (to make code more compact). See detail of each function in the repository
 #-----------------
 # *** make sure to customize this path
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/writeCommandViaCSV.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/TEST5/apply_policy.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/TEST5/data_4_RL.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/import_data.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/TEST5/import_data_mt.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/TEST5/generate_RL_policy.R")
- source("C:/Users/fxtrams/Documents/000_TradingRepo/R_tradecontrol/TEST5/record_policy.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/writeCommandViaCSV.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/TEST5/apply_policy.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/TEST5/data_4_RL.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/import_data.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/TEST5/import_data_mt.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/TEST5/generate_RL_policy.R")
+ source("C:/LazyTrading/GitHub/R_tradecontrol/TEST5/record_policy.R")
 # -------------------------
 # Define terminals path addresses, from where we are going to read/write data
 # -------------------------
