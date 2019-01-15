@@ -47,10 +47,10 @@ library(magrittr)
 # Define terminals path addresses, from where we are going to read/write data
 # -------------------------
 # terminal 1 path *** make sure to customize this path
-path_T1 <- "C:/Program Files (x86)/FxPro - Terminal1/MQL4/Files/"
+path_T1 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal1/MQL4/Files/"
 
 # terminal 3 path *** make sure to customize this path
-path_T4 <- "C:/Program Files (x86)/FxPro - Terminal3/MQL4/Files/"
+path_T4 <- "C:/Program Files (x86)/ICMarkets MT4 Terminal3/MQL4/Files/"
 
 # -------------------------
 # read data from trades in terminal 1
